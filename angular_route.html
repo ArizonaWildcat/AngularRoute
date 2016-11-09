@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src ="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js "></script>
+         <script src="../js/angular_route.js" type="text/javascript"></script>
+        <script src="../js/angularRouting_example.js" type="text/javascript"></script>
+    <link href="../css/angularRouteTemplateRoute.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body ng-app ="demo">
+        <header>
+            <h1>Web Routing Application</h1>
+        </header>
+        <aside>
+            <a href="#/home">Home</a><br/>
+            <a href="#/course">Course</a><br/>
+            <a href="#/student">Student</a>
+            
+        </aside>
+        <section>
+            <ng-view></ng-view>
+        </section>
+        <footer>
+            <p> web.route.html</p>
+            <a href="../template/home.html"></a>
+        </footer>
+        
+    </body>
+</html>
